@@ -3,7 +3,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main() {
+int main()
+{
     int escolhaUsuario, numeroUsuario, numeroComputador, soma;
 
     printf("=== Jogo do PAR ou ÍMPAR ===\n");
@@ -13,7 +14,8 @@ int main() {
     printf("Sua escolha: ");
     scanf("%d", &escolhaUsuario);
 
-    if (escolhaUsuario != 0 && escolhaUsuario != 1) {
+    if (escolhaUsuario != 0 && escolhaUsuario != 1)
+    {
         printf("Escolha inválida. Use 0 para PAR ou 1 para ÍMPAR.\n");
         return 1;
     }
@@ -21,7 +23,8 @@ int main() {
     printf("Digite um número de 0 a 5 (dedos): ");
     scanf("%d", &numeroUsuario);
 
-    if (numeroUsuario < 0 || numeroUsuario > 5) {
+    if (numeroUsuario < 0 || numeroUsuario > 5)
+    {
         printf("Número fora do intervalo permitido.\n");
         return 1;
     }
@@ -36,10 +39,13 @@ int main() {
     printf("Soma dos valores: %d\n", soma);
 
     // Verifica quem ganhou
-    if ((soma % 2 == 0 && escolhaUsuario == 0) || 
-        (soma % 2 == 1 && escolhaUsuario == 1)) {
+    if ((soma % 2 == 0 && escolhaUsuario == 0) ||
+        (soma % 2 == 1 && escolhaUsuario == 1))
+    {
         printf("Você venceu!\n");
-    } else {
+    }
+    else
+    {
         printf("O programa venceu!\n");
     }
 
