@@ -1,12 +1,11 @@
-# Nome do Projeto
+# LISTA
 
 Trabalho desenvolvido para a disciplina **Algoritmos e Programação: Fundamentos**.
 
 ## 👥 Integrantes do Grupo
 
-- Nome 1
-- Nome 2 (se houver)
-- Nome 3 (se houver)
+- Lucas Teixeira
+
 
 ## 🚀 Como executar 
 
@@ -17,24 +16,7 @@ Este programa foi feito em **linguagem C** e pode ser executado no [OnlineGDB](h
 2. Clique em "Run".
 
 ### No seu computador (VS Code ou outro editor):
-1. Compile o código (por exemplo, com o comando: `gcc arquivo.c -o programa`)
+1. Compile o código (por exemplo, com o comando: `gcc .c -o programa`)
 2. Execute com: `./programa`
 
-## 💡 Sobre o Programa
 
-Descreva brevemente o que o programa faz. Exemplo:
-> O programa simula a propagação de um vírus em uma população ao longo dos dias, considerando taxa de contágio, vacinação e eventos aleatórios.
-
-## 📌 Observações
-
-- O código está no arquivo `main.c` (ou outro nome que usaram).
-- Não é necessário instalar bibliotecas extras.
-
-## 🙌 Créditos (opcional)
-
-Se desejar, agradeça colegas, tutores ou materiais que ajudaram.
-
-## 📚 Referências (opcional)
-
-Links ou materiais que foram úteis no desenvolvimento.
-- [Guia básico de Markdown no GitHub](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
